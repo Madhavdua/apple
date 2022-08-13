@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Nanum+Gothic&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Nanum+Gothic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    height: 7vh;
+    width: 98vw; 
+    background-color: black
+
+}
+header a{
+    font-weight: 100;
+    font-size: small;
+    text-decoration: none;
+    color: white;
+    padding-right: 6vh;
+    font-family: 'Mukta', sans-serif;
+}
+footer{
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: rgba(245,245,247,255);
+   height: auto;
+   width: 98vw;
+   display: flex;
+   flex-direction: column;
+   color: rgb(99, 93, 93);
+
+}
+footer .start{
+    width:80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: small;
+    margin-bottom: 8px;
+}
+footer li{
+    margin: 4px;
+}
+.one .content{
+    padding-top: 80px;
+}
+.two {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.one .content{
+    height: auto;
+    background-color: rgba(245,245,247,255);
+}
+.two{
+    display: flex;
+    background-color:  rgba(251,251,253,255);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.three{
+    background-color: rgba(251,251,253,255);
+    display: flex;
+    flex-direction: column;
+}
+.three .down_image_iphone{
+display: flex;
+justify-content: center;
+}
+
+.double{
+    display: flex;
+    margin: 15px;
+}
+@media screen and (max-width :768px){
+    .double{flex-wrap: wrap;}
+}
+.double .content a{
+    font-family: 'Rubik', sans-serif;
+}
+.double .four, .double .five{
+    padding: 50px;
+}
+
+.five{
+    background-color: black;
+    width: 50vw;
+}
+
+.four{
+    width: 50vw;
+    background-color:rgba(251,251,253,255);
+}
+
+
+.content a{
+    text-decoration: none;
+}
+.content_one a{
+font-size: 50px;
+color: black;
+font-family: 'Roboto', sans-serif;
+}
+.lefttext1 .content_two a{
+    display: flex;
+}
+.lefttext1 .content_two a img{
+    padding-left: 10px;
+}
+.content_two a{
+padding: 10px;
+font-weight: 500;
+font-size: 27px;
+color: black;
+font-family: 'Roboto', sans-serif;
+}
+.content_three a{
+    padding: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+}
+.double .content_one a{
+    font-size: 37px;
+}
+.double .content_two a{
+    font-size: 20px;
+}
+.double .content_three a{
+    font-size: 17px;
+}
+.five .content_two a{
+    color: white;
+    display: flex;
+    column-gap: 12px;
+}
+
+ .five .content_one a{
+    color: white;
+}
+.left_iphone .iphone_2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.one .content_one{
+    font-style: italic;
+}
+.one .content_one .pink{
+    color: rgba(203,38,105,255);
+    display: inline;
+}
+.one .content_three{
+    margin-top: 20px;
+}
